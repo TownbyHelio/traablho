@@ -7,8 +7,6 @@ public class Trabaio {
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println(caracteres.length());
-
         System.out.println(
                 "1. Decimal -> Binário\n" +
                 "2. Decimal -> Octal\n" +
