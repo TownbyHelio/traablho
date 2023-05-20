@@ -7,6 +7,8 @@ public class Trabaio {
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println(caracteres.length());
+
         System.out.println(
                 "1. Decimal -> Binário\n" +
                 "2. Decimal -> Octal\n" +
@@ -17,8 +19,8 @@ public class Trabaio {
         );
 
         System.out.println(
-                "7. Decimal -> Base 128\n" +
-                "8. Base 128 -> Decimal\n"
+                "7. Decimal -> Base 100\n" +
+                "8. Base 100 -> Decimal\n"
         );
 
         System.out.print("\nEscolha uma opção: ");
@@ -49,10 +51,10 @@ public class Trabaio {
                 System.out.println("Em decimal: " + Trabaio.paraDecimal(n, 16));
                 break;
             case 7:
-                System.out.println("Em base 128: " + Trabaio.decimalPara(Integer.parseInt(n), 128));
+                System.out.println("Em base 100: " + Trabaio.decimalPara(Integer.parseInt(n), 100));
                 break;
             case 8:
-                System.out.println("Em decimal: " + Trabaio.paraDecimal(n, 128));
+                System.out.println("Em decimal: " + Trabaio.paraDecimal(n, 100));
                 break;
             default:
                 System.out.println("Opção inválida");
